@@ -21,13 +21,13 @@ Grandes telas: mais de 1200px
 
     #login > #imagem {
         float: left;
-        width: 30%;
+        width: 35%;
         height: 100%;
     }
 
     #login > #form {
         float: right;
-        width: 70%;
+        width: 65%;
     }
 }
 
@@ -41,13 +41,21 @@ Grandes telas: mais de 1200px
     }
 
     #login > #imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     #login > #form {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    #form >h1 {
+        font-size: 1.8em;
+    }
+
+    #form > p {
+        font-size: 1.1em;
     }
 }
